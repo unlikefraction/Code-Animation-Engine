@@ -3,7 +3,7 @@ Make boring explanation of code much entertaining by using code-animation.<br>
 
 This is a very simple to use JavaScript library that can help you in code presentation.<br>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/a0tGLin"><a href="//imgur.com/a/a0tGLin">Code Animation Engine by Shubham Gupta-TCH</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://s6.gifyu.com/images/QqGlJTs-1.gif" alt="QqGlJTs-1.gif" border="0" />
 
 #### Issues under a Creative Commons Attribution-NonCommercial 4.0 International License. (See the end for more info)
 ## Why Code Animation?
