@@ -12,7 +12,7 @@ Use github CDN to add it in your project or you can download it and use it from 
 
 Add a `pre` tag with class of `code`.
 This will have all of your prewritten code to type later on.
-snippets are created using `!>` in the code.
+snippets are created using `!>` in the code.<br>
 `!>` --> This denotes a pause in the typing animation.
 Example:
 ```
