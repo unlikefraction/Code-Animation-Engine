@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Code Animation Engine</title>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="prism_atom.css" />
+    </head>
+    <body>
+<pre class="language-javascript code">
+//Welcome to Code Animation. A Shubham Gupta's Creation.
+
+// Animate code writeen in pre with class "code" on Click.
+let codeanimation = new AnimateWrittenCode();
+codeanimation.type_on_click();
+!>
+// Animate Any String on Click.
+var stringAnimation = new CodeAnimation("Code Animation is just Amazing!");
+stringAnimation.type_on_click();
+!>
+// Animate Any String on pageLoad.
+var stringAnimation = new CodeAnimation("This will be typed as soon as the page loads.");
+stringAnimation.type();
+!>
+// Parameters for AnimateWrittenCode() and CodeAnimation()
+// All parameters are optional
+
+CodeAnimation(text, delay_pc, jsFile);
+AnimateWrittenCode(delay_pc, syntax_script);
+
+// delay_pc      ---> Delay Per Character (dafault=50) (in miliseconds)
+// syntax_script ---> This is the Script file that checks for code syntax (default="prism.js")
+!>
+// KeyMagic
+F             --> Makes the animation Faster
+S             --> Makes the animation Slower
+Del           --> Deletes the last typed snippet
+Right Arrow   --> Types the next Snippet
+</pre>
+
+<pre class="language-javascript"><code id="output"></code><span class="cursor">|</span></pre>
+        <script src="code_animation.js"></script> <!-- Code Animation Engine Script -->
+        <script src="prism.js"></script> <!-- Script for syntax detection -->
+
+        <script type="text/javascript">
+            let codeanimation = new AnimateWrittenCode();
+            codeanimation.type_on_click();
+        </script>
+
+    </body>
+</html>

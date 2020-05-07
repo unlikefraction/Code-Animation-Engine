@@ -1,0 +1,24 @@
+.code {
+    display: none;
+}
+
+.cursor {
+    font-weight: 900;
+    color: turquoise;
+    animation: blink 1s ease infinite;
+    user-select: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
