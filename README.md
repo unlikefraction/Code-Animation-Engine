@@ -65,7 +65,7 @@ Del           --> Deletes the last typed snippet
 Right Arrow   --> Types the next Snippet
 ```
 
-#### For more usage, CHECK THE CODE! It has everything that you need. (main.js)
+#### For more usage, CHECK THE CODE! It has everything that you need. (code_animation.js)
 
 Open index.html and press right arrow key to see code-animation in action.
 
