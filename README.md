@@ -3,6 +3,7 @@ Make boring explanation of code much entertaining by using code-animation.<br>
 
 This is a very simple to use JavaScript library that can help you in code presentation.<br>
 
+#### Issues under a Creative Commons Attribution-NonCommercial 4.0 International License. (See the end for more info)
 ## Why Code Animation?
 Whenever we are in a code presentation, typing the code live takes a lot of time, but it is boring to explain using a pre written code. So, this library is a combination of both, you divide your code into code snippets and they get typed live on the press of Right Arrow Key.
 So, make boring presentations interesting using Code-Animation. It is not just a tool, it is power.<br>
